@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>ceo.sss</title>
+    <style type="text/css">
+    
+html {
+    scroll-behavior: smooth;
+   }
+body{
+    font-family: 'Montserrat';
+    color: white;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#000,#c2fe59);
+    /* background-color: #c2fe59; */
+}
+
+#hom-btn:hover{
+    background-color: #c2fe59;
+}
+
+#hom-btn:hover ~ #cursor{
+    width: 100px;
+    height: 100px;
+}
+
+
+.container {
+    
+    margin: 0 auto;
+    margin-top: 5%;
+
+    padding: 20px;
+    /* background: #242002; */
+}
+
+.mystyle {
+    display: none;
+  }
+
+#show{
+    display: none;
+}
+
+.font-col{
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.nav{
+    /* border: 2px solid red; */
+    padding: 1em;
+    width: 100%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    text-align: center;
+    margin-left: 16%;
+
+}
+.nav a{
+    color: white;
+    padding: 70px;
+    
+}
+
+
+    </style>
+</head>
+<body style="background-color: black;">
+
+    
+    <div id="homediv" class="row">
+
+        <div  style="position: fixed" class="col-md-2">
+
+                <h1  style="color: #c2fe59;margin-top: 15px; margin-left: 45px; font-weight:700" class="font-col"><s>ceo.sss</s></h1>
+
+        </div>
+
+        <div class="col-md-10" style="margin-top: 10px; font-weight: bold; position: fixed">
+
+                <ul class="nav">
+                        <li style="margin-right: 130px; margin-left: 100px;"> <button id="hom-btn" style="font-weight: 700;border-color: #c2fe59;;color: white;" type="button" class="btn btn-outline-success" onclick="document.getElementById('homediv').scrollIntoView();">HOME</button></li>
+                        <li style="margin-right: 126px;"> <button id="hom-btn" style="font-weight: 700;border-color: #c2fe59;;color: white;"  type="button" class="btn btn-outline-success" onclick="document.getElementById('about').scrollIntoView();">ABOUT</button></li>
+                        <li style="margin-right: 120px;"> <button id="hom-btn" style="font-weight: 700;border-color: #c2fe59;;color: white;"  type="button" class="btn btn-outline-success" onclick="document.getElementById('project').scrollIntoView();">PROJECTS</button></li>
+                        <li style="margin-right: 120px;"> <button id="hom-btn" style="font-weight: 700;border-color: #c2fe59;;color: white;"  type="button" class="btn btn-outline-success" onclick="document.getElementById('blog').scrollIntoView();" >BLOG</button></li>
+                        <li style="margin-right: 0px;"> <button id="hom-btn" style="font-weight: 700;border-color: #c2fe59;;color: white;"  type="button" class="btn btn-outline-success" onclick="document.getElementById('contact').scrollIntoView();">CONTACT</button></li>
+                
+                    </ul>
+
+        </div>
+
+    </div>
+                 
+<div style="height: 89vh">
+
+    <div class="row font-col">
+        <div style="margin-left: 250px; margin-top:200px " class="col">
+            <h1 style="font-weight: 700" >Swaraj Samant</h1>
+        </div>
+        <div style="margin-top: 200px; margin-left: 200px; margin-right: 0px" class="col">
+            <h1 style="margin-left: 180px;width: 130px;"> <strong>01</strong>/05</h1>
+        </div>
+        <div style="margin-top: 200px; margin-left: -20px"  class="col">
+            <h1 style="margin-left: 35px;font-weight: 600;"><span>&lt;</span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<span onclick="document.getElementById('about').scrollIntoView();">&gt;</span></h1>
+        </div>
+    </div>
+
+    <div class="row font-col">
+        <div style="margin-left: 250px; margin-top:50px " class="col">
+            <h1 style="font-size: 20px;margin-top: -45px;margin-left: 32px;" >WEB & UI/UX DESIGNER</h1>
+        </div>
+        <div style="margin-left: -135px;" class="col">
+            <!-- <h1>View Profile</h1> -->
+            <hr style="margin-top: 5px; height: 3px;width: 350px;border: 2px solid white;">
+        </div>
+    </div>
+
+    <div class="row font-col">
+        <div style="margin-left: 250px; margin-top:50px " class="col">
+            <!-- <h1 style="font-size: 20px;margin-top: -45px;margin-left: 32px;" >WEB & UI/UX DESIGNER</h1> -->
+            <button id="hom-btn" style="margin-left: 100px;margin-top: -90px;font-weight: 700;border-color: #c2fe59;;color: white;" onclick="document.getElementById('contact').scrollIntoView();" type="button" class="btn btn-outline-success">CONTACT</button>
+        </div>
+        <div style="margin-left: -135px;" class="col">
+            <!-- <h1>View Profile</h1> -->
+            <h1 style="margin-left: 170px;width: 130px; margin-top: -25px"> <strong>HOME</strong></h1>
+        </div>
+    </div>
+
+    <div style="text-align: center" class="font-col">
+        <h1 style="color: #c2fe59; font-size: 80px;margin-top: 50px;font-weight: 600;">HOME</h1>
+        <img style="height: 100px;transform: rotate(180deg)"  src="https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png"> &nbsp;&nbsp;
+        <img style="height: 100px;margin-top: 15px;" onclick="document.getElementById('about').scrollIntoView();" src="https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png">
+    </div>
+
+</div>
+
+
+
+    
+<div style="text-align: center" class="container">
+    <div style="height: 89vh; color: white; width: 100%; padding-top: 6%" id="about">
+            <h1 style="color: #c2fe59;font-size: 80px">ABOUT</h1>
+        <div style="margin-top: 5%" class="row">
+            <div class="col">
+                <img style="border-radius:50%; width: 400px" src="https://scontent.fccu4-2.fna.fbcdn.net/v/t1.0-9/42917046_1154195454741030_3504287104119078912_n.jpg?_nc_cat=111&_nc_ht=scontent.fccu4-2.fna&oh=098021b98733bda037b24d926a62db7c&oe=5D51A8B0">
+            </div>
+            <div style="padding-right: 40px;margin-top: 60px;" class="col">
+                    
+                <h3 style="font-size: 40px">Who's this guy?</h3> 
+                <div style="padding-top:30px;width: 80%;padding-left: 100px; font-size: 18px">
+                    <div class="type" data-splitting>
+                        I am a  Full Stack Web Developer, Android Developer and UI/UX Designer.I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.Feel free to take a look at my latest projects on the Project Section.
+                    </div> 
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        
+        
+
+    </div>
+</div>
+<div class="container">
+    <div style="height: 89vh; color: white; width: 100%; padding-top: 6%;text-align: center" id="project">
+            <h1 style="color: #c2fe59;font-size: 80px; padding-top: 20px;">PROJECTS</h1>
+            <h1 style="font-size: 200px">UPDATING</h1><br>
+            <h2>REAL</h2>
+            <h1  style="font-size: 150px">SOON</h1>
+
+    </div>
+</div>
+<div class="container">
+    <div style="height: 89vh; color: white; width: 100%; padding-top: 6%;text-align: center" id="blog">
+
+        <h1 style="color: #c2fe59;font-size: 80px; padding-top: 20px;">BLOG</h1>
+        <h1 style="font-size: 200px">COMING</h1><br>
+        <h2>REAL</h2>
+        <h1  style="font-size: 150px">SOON</h1>
+
+    </div>
+</div>
+<div class="container">
+    <div style="height: 89vh; color: white; width: 100%; padding-top: 0%; text-align: center;margin-left: 350px;" id="contact">
+        <div style="width:40%">
+        
+        <h1 style="color: #c2fe59;font-size: 80px; padding-top: 20px;">CONTACT</h1>
+        
+            <form action="mailto:sswarajsamant@gmail.com" method="post" enctype="text/plain">
+                <div style="margin-top:40px;" class="form-group">
+                        <input style="color: #c2fe59;background: black;" class="form-control" type="name" name="name" placeholder="Enter Name "><br>
+                </div>
+                <div class="form-group">
+                        <input style="color: #c2fe59;background: black;" class="form-control" type="name" name="email" placeholder="Enter Email id"><br>    
+                </div>
+                <div  class="form-group">
+                        <textarea style="color: #c2fe59;background: black;" class="form-control" name="message" cols="30" rows="10" placeholder="Enter Your Message Here ..."></textarea>    
+                </div>    
+                <div>
+                    <button id="hom-btn" style="font-weight: 700;border-color: #c2fe59;color: white;" class="btn btn-outline-success">SUBMIT</button>
+                </div>
+            </form>
+        </div>    
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
